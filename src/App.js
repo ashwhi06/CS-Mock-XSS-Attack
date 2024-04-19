@@ -72,7 +72,7 @@ const handleSubmit = e => {
       ))}
     </>
         {/* Launch second attack here. */}
-        <div style={{"visibility": "hidden"}} dangerouslySetInnerHTML={{__html: task.image}}></div>
+        <div style={{"visibility": "hidden"}} dangerouslySetInnerHTML={{__html: task.image}}></div> 
     </>
   )
 }
